@@ -55,3 +55,5 @@ function ApproxSpring(value, targetValue, strength, damping) {
         return damping;
     }
 }
+
+window.ApproxSpring = ApproxSpring;
