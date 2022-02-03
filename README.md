@@ -4,7 +4,7 @@ An approximated class that approaches a set scalar value to a scalar target valu
 Example usage:
 
 ```js
-let deltaTime = 1 / 60; // The deltaTime should be expressed in seconds, retrieve it as needed. In this case it should be a fixed 60FPS delta time.
+const deltaTime = 1 / 60; // The deltaTime should be expressed in seconds, retrieve it as needed. In this case it should be a fixed 60FPS delta time.
 const spring = new ApproxSpring(0, 0, 200, 0.00001); // Create spring class
 spring.setTarget(1); // Set the target value
 spring.calc(deltaTime); // Run this repeatedly as per requirements to calculate the new value of the spring.
