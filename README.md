@@ -12,3 +12,6 @@ spring.getValue(); // Returns the updated value
 ```
 
 A common use-case would be to make springy dimensions as they get updated, or to move objects so they spring around the destination point.
+
+
+### [JSFiddle](https://jsfiddle.net/Kurochee/t6nmd5gf/15/)
